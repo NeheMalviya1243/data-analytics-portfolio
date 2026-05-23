@@ -87,6 +87,31 @@ Welcome to my project portfolio. I build end-to-end data solutions — from raw 
 
 ---
 
+### 04. Rider Event Hub
+
+**Tech Stack:** HTML5 | CSS3 | JavaScript | React (CDN) | Supabase (PostgreSQL) | Netlify
+
+> A full-stack campus event discovery platform for Rider University students — featuring real-time RSVP tracking, QR code sharing, admin moderation, and a live Supabase backend.
+
+**What it does:**
+- Centralized hub for all Rider University campus events (Academic, Networking, Club, Food, and more)
+- Students browse by list or calendar view, filter by category/location/keyword, and RSVP with one click
+- RSVP capacity tracking with real-time progress bar and sold-out detection
+- Built-in QR code generator for every event for easy sharing
+- Event submission form restricted to `@rider.edu` emails with admin approval workflow
+- Admin dashboard to approve/reject events, feature listings, and export data to CSV
+- Comments section and browser notification reminders per event
+
+**Highlights:**
+- Full-stack: React frontend + Supabase PostgreSQL backend + deployed on Netlify
+- Relational database schema with foreign keys, cascade deletes, and atomic SQL functions for concurrent RSVP/view updates
+- Built for real university use with `@rider.edu` email validation and role-based access (student / organizer / admin)
+- Production deployment configured with `netlify.toml`
+
+**Repo:** [rider_event_hub](https://github.com/NeheMalviya1243/rider_event_hub)
+
+---
+
 ## Contact
 
 - **GitHub:** [github.com/NeheMalviya1243](https://github.com/NeheMalviya1243)
