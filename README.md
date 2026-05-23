@@ -64,6 +64,29 @@ Welcome to my project portfolio. I build end-to-end data solutions — from raw 
 
 ---
 
+### 03. Breast Cancer Prediction
+
+**Tech Stack:** Python | Flask | Scikit-learn (SVM) | Pandas | NumPy | HTML/Jinja2
+
+> A machine learning web application that predicts whether a breast cancer tumor is Malignant or Benign — built with Python, SVM, and Flask.
+
+**What it does:**
+- Trains a Support Vector Machine on the Wisconsin Breast Cancer Dataset (569 records, 30 features)
+- Achieves **98.2% accuracy** in classifying tumors as Malignant or Benign
+- Flask web app lets doctors input 30 tumor measurements and get an instant prediction
+- Supports dual input modes: individual form fields or space-separated bulk paste
+- Returns prediction result, model accuracy, and processing runtime
+
+**Highlights:**
+- ML applied to a real healthcare problem with direct clinical utility
+- Clean architecture: ML pipeline (`svm_func.py`) fully separated from web layer (`app.py`)
+- Full-stack: data preprocessing → model training → deployed Flask web application
+- Reduces unnecessary surgeries by accurately identifying benign tumors
+
+**Repo:** [Breast_cancer_prediction](https://github.com/NeheMalviya1243/Breast_cancer_prediction)
+
+---
+
 ## Contact
 
 - **GitHub:** [github.com/NeheMalviya1243](https://github.com/NeheMalviya1243)
