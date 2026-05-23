@@ -39,6 +39,31 @@ Welcome to my project portfolio. I build end-to-end data solutions — from raw 
 
 ---
 
+### 02. GenAI KPI Meeting Assistant
+
+**Tech Stack:** Python | Streamlit | Pandas | Plotly | Seaborn | Google Gemini API | FPDF | smtplib
+
+> An AI-powered sales KPI dashboard that automates the entire weekly reporting workflow — from raw data upload to AI-generated summaries and email delivery.
+
+**What it does:**
+- Smart column auto-detection — handles messy, inconsistently named real-world datasets
+- Computes Executive KPIs: Total Sales, Profit, Quantity, Avg Discount, Week-over-Week change
+- Auto-selects Daily / Weekly / Monthly / Yearly trend granularity based on date range
+- Region & Category analysis with bar charts, pie charts, and Seaborn profit heatmap
+- Top 10 Selling Products bar chart
+- AI-generated natural language KPI narrative via Google Gemini (`gemini-pro`)
+- Generates formatted PDF report and emails it with chart attachments via Gmail SMTP
+
+**Highlights:**
+- End-to-end automation: CSV upload → KPIs → AI summary → PDF → Email in one app
+- Integrated two AI backends: Google Gemini API and HuggingFace BART (`facebook/bart-large-cnn`)
+- Handles real-world messy data with flexible column name mapping
+- Production patterns: temp file handling, SMTP authentication, exception management
+
+**Repo:** [genai-kpi-meeting-assistant](https://github.com/NeheMalviya1243/genai-kpi-meeting-assistant)
+
+---
+
 ## Contact
 
 - **GitHub:** [github.com/NeheMalviya1243](https://github.com/NeheMalviya1243)
